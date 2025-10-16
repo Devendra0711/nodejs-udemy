@@ -1,0 +1,14 @@
+console.log('Hello from warm-up-files');
+
+const a = 1;
+const b = 3;
+
+const sum = a + b;
+
+console.log('Sum of a + b is', sum);
+
+// Modules
+
+1. Built-in Modules
+2. 3rd Party Modules (External Modules)   - npm install
+3. custom (My Own Modules)  - which we built throughout the project.

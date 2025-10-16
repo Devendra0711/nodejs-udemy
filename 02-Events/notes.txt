@@ -1,0 +1,9 @@
+***** What are Events in Node.js ?
+==> Any action is performed and it triggers a specific responses.Node.js follows an event-driven architecture.
+==> The 'EventEmitter' class in the `events` module is used to handle events in node.js.
+==> Events in Node.js work like a 'Publisher-subscriber' model. where, an event is emitted and event listners(handlers) respond to it.
+
+***** Why we use Events?
+ ==> Helps in Asynchronous programming without callback hell.
+ ==> Used heavily in "real time application" like 'chat apps', 'Notifications', and 'streams'.
+ ==> core  modules like 'fs', 'http', and 'stream' use events internally.
